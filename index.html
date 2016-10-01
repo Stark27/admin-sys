@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="App">
+<head>
+    <meta charset="UTF-8">
+    <title>Sys</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="frontend/css/bootstrap.min.css">
+    <link rel="stylesheet" href="frontend/css/adminlte.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- iCheck -->
+    <link rel="stylesheet" href="frontend/plugins/iCheck/square/blue.css">
+    <!-- CSS -->
+    <!-- ANGULAR.JS -->
+    <script src="frontend/js/assets/angular.min.js"></script>
+    <script src="frontend/js/assets/angular-route.min.js"></script>
+    <!-- ANGULAR.JS -->
+</head>
+<body ng-controller="AppCtrl"
+      ng-class="{'container-fluid': containerFluid, 'hold-transition': holdTransition, 'login-page':loginPage}">
+    <div ng-view></div>
+    <!-- AngularJS -->
+    <script src="frontend/js/angular/app.js"></script>
+    <script src="frontend/js/angular/app.run.js"></script>
+    <script src="frontend/js/angular/app.settings.js"></script>
+    <!-- Controladores -->
+    <script src="frontend/js/angular/controllers/appCtrl.js"></script>
+    <script src="frontend/js/angular/controllers/mainCtrl.js"></script>
+    <script src="frontend/js/angular/controllers/loginCtrl.js"></script>
+    <script src="frontend/js/angular/controllers/signupCtrl.js"></script>
+    <script src="frontend/js/angular/controllers/homeCtrl.js"></script>
+    <!-- Controladores-->
+    <!-- Directives -->
+    <script src="frontend/js/angular/directives/loginDirective.js"></script>
+    <!-- Directives -->
+    <!-- Services -->
+    <script src="frontend/js/angular/services/loginService.js"></script>
+    <script src="frontend/js/angular/services/sessionService.js"></script>
+    <script src="frontend/js/angular/services/functionsService.js"></script>
+    <!-- Services -->
+    <!-- AngularJS -->
+    <!-- jQuery 2.2.3 -->
+<script src="frontend/plugins/jQuery/jquery-2.2.3.min.js"></script>
+<!-- Bootstrap 3.3.6 -->
+<script src="frontend/js/boostrap.min.js"></script>
+<!-- iCheck -->
+<script src="frontend/plugins/iCheck/icheck.min.js"></script>
+</body>
+</html>
